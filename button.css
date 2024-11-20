@@ -1,0 +1,29 @@
+.button-main{
+    display:grid;
+    grid-template-columns: 1300px;
+    position: fixed;
+    flex: 1;
+    top:60px;
+    left: 79px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    padding-left: 7px;
+    padding-right: 7px; 
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    font-family: roboto,Arial;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+   border-color: transparent;
+    background-color:rgb(242,242,242);
+    font-size: medium;
+}
+.button:hover{
+    opacity: 0.9;
+}

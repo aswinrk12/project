@@ -1,0 +1,93 @@
+.thambnail-main{
+    display: grid;
+    grid-template-columns: 370px 370px 370px; 
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.thambnail-sub{
+    display: grid;
+    grid-template-rows: 370px 370px;
+    box-shadow: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.thambnail-img{
+    width: 370px;
+    height: 220px;
+    border-radius: 10px;
+}
+.profile-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.verified{
+vertical-align: middle;
+width: 15px;
+height: 15px;
+border-radius: 10px;
+}
+.thambnail-container{
+display: grid;
+grid-template-columns: 40px 330px;
+margin-top: 10px;
+cursor: pointer;
+}
+.text{
+margin-left: 10px;
+}
+.time{
+position: absolute;
+background-color: black;
+color: white;
+bottom: 10px;
+right:10px;
+border-radius: 3px;
+
+}
+.dot{
+margin-left:50px ;
+font-weight:500;
+font-size: large;
+}
+.text-1{
+font-size: 16px;
+font-weight:500;
+margin-bottom: 2px;
+font-family: roboto,Arial;
+}
+.text-2{
+font-size: 16px;
+font-weight:500;
+margin-bottom: 5px;
+font-family: roboto,Arial;
+}
+.text-3{
+font-size: medium;
+font-weight:100;
+color: gray;
+margin-top: 5px;
+margin-bottom: 0px;
+
+}
+.text-4{
+font-size: medium;
+font-weight:100;
+color: gray;
+margin-top: 5px;
+
+}
+.dot-2{
+    margin-left:50px ;
+    font-weight:500;
+    font-size: ;
+}
+.dot-3{
+    font-weight:500;
+    font-size: large;
+    margin-left: 10px;
+}
+.dot-4{
+    font-weight:500;
+    font-size: large;
+    margin-left: 15px;
+}
